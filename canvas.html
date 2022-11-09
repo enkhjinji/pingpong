@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .child {
+        display: flex;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        font-size: 30px;
+        color: white;
+      }
+      .child-1 {
+        display: flex;
+        position: absolute;
+        top: 5%;
+        left: 17%;
+        font-size: 30px;
+        color: white;
+      }
+      .pointR {
+        display: flex;
+        position: absolute;
+        right: 17%;
+        top: 5%;
+        font-size: 30px;
+        color: white;
+      }
+      #countR {
+        display: flex;
+        position: absolute;
+        right: 15%;
+        top: 5%;
+        font-size: 30px;
+        color: white;
+      }
+    </style>
+    <div id="pointL" class="child">Red:</div>
+    <div id="countL" class="child-1">0</div>
+    <div class="pointR">Purple:</div>
+    <div id="countR">0</div>
+    <canvas
+      id="myCanvas"
+      style="width: 100%; height: 100vh; display: block"
+    ></canvas>
+    <script src="app.js"></script>
+  </body>
+</html>
